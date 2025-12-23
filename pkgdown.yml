@@ -3,7 +3,7 @@ pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   articles/test_pkg: test_pkg.html
-last_built: 2025-12-23T15:11Z
+last_built: 2025-12-23T15:54Z
 urls:
   reference: https://skdeshpande91.github.io/test_pkg/reference
   article: https://skdeshpande91.github.io/test_pkg/articles
