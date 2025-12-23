@@ -99,10 +99,7 @@
 <p>We now can fit a BART model to these data.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">BART</span><span class="op">)</span></span>
-<span><span class="co">#&gt; Loading required package: nlme</span></span>
-<span><span class="co">#&gt; Loading required package: survival</span></span>
-<span><span class="va">fit</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/BART/man/wbart.html" class="external-link">wbart</a></span><span class="op">(</span>x.train <span class="op">=</span> <span class="va">train_data</span><span class="op">[</span>,<span class="fu"><a href="https://rdrr.io/r/base/colnames.html" class="external-link">colnames</a></span><span class="op">(</span><span class="va">train_data</span><span class="op">)</span> <span class="op">!=</span> <span class="st">"Y"</span><span class="op">]</span>,</span>
+<code class="sourceCode R"><span><span class="va">fit</span> <span class="op">&lt;-</span> <span class="fu">BART</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/BART/man/wbart.html" class="external-link">wbart</a></span><span class="op">(</span>x.train <span class="op">=</span> <span class="va">train_data</span><span class="op">[</span>,<span class="fu"><a href="https://rdrr.io/r/base/colnames.html" class="external-link">colnames</a></span><span class="op">(</span><span class="va">train_data</span><span class="op">)</span> <span class="op">!=</span> <span class="st">"Y"</span><span class="op">]</span>,</span>
 <span>             y.train <span class="op">=</span> <span class="va">train_data</span><span class="op">$</span><span class="va">Y</span><span class="op">)</span></span></code></pre></div>
 </div>
 

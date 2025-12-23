@@ -39,9 +39,6 @@ train_data[,"Y"] <- mu_train + sigma * rnorm(n = n_train, mean = 0, sd = 1)
 We now can fit a BART model to these data.
 
 ``` r
-library(BART)
-#> Loading required package: nlme
-#> Loading required package: survival
-fit <- wbart(x.train = train_data[,colnames(train_data) != "Y"],
+fit <- BART::wbart(x.train = train_data[,colnames(train_data) != "Y"],
              y.train = train_data$Y)
 ```
