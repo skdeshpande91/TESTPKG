@@ -50,7 +50,6 @@ We now can fit a BART model to these data.
 ```{r}
 #| label: fit-bart
 #| results: hide
-library(BART)
-fit <- wbart(x.train = train_data[,colnames(train_data) != "Y"],
+fit <- BART::wbart(x.train = train_data[,colnames(train_data) != "Y"],
              y.train = train_data$Y)
 ```
