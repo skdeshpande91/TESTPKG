@@ -1,0 +1,17 @@
+A temporary package to test quarto vignette and article workflow
+
+# Package index
+
+## All functions
+
+- [`test_pkg`](https://skdeshpande91.github.io/test_pkg/reference/test_pkg.md)
+  : A simple test function
+
+# Articles
+
+### All vignettes
+
+- [Test Quarto
+  Article](https://skdeshpande91.github.io/test_pkg/articles/test_pkg.md):
+
+  Testing pkgdown
