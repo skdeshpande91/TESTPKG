@@ -13,6 +13,6 @@ Suggests:
     igraph,
     knitr,
     quarto
-URL: https://skdeshpande91.github.io/test_pkg
+URL: https://skdeshpande91.github.io/test_pkg, https://skdeshpande91.github.io/test_pkg/
 Config/Needs/website: rmarkdown, quarto, BART, igraph, glmnet, dbarts, colorBlindness, knitr
 VignetteBuilder: quarto

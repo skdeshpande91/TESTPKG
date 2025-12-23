@@ -1,0 +1,12 @@
+---
+title: "Test Quarto Article"
+description: >
+  Testing pkgdown
+format: html
+knitr:
+  opts_chunk:
+    collapse: true
+    comment: '#>'
+---
+
+Test quarto article
