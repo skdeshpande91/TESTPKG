@@ -1,0 +1,18 @@
+Package: testPkg
+Type: Package
+Title: A Temporary Test Package
+Version: 0.0.0
+Date: 2025-12-22
+Authors@R: c(
+  person(given = "Sameer K.", family = "Deshpande", role = c("aut", "cre"), email = "sameer.deshpande@wisc.edu", comment = c(ORCID = "0000-0003-4116-5533")))
+Description: A temporary package to test quarto vignette and article workflow
+License: GPL (>= 3)
+LinkingTo: Rcpp, RcppArmadillo
+Imports: Rcpp (>= 1.0.12), glmnet (>= 4.0), methods
+Suggests: 
+    igraph,
+    knitr,
+    quarto
+URL: https://skdeshpande91.github.io/test_pkg
+Config/Needs/website: rmarkdown, quarto, BART, igraph, glmnet, dbarts, colorBlindness, knitr
+VignetteBuilder: quarto
