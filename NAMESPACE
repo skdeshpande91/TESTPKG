@@ -1,2 +1,2 @@
 export("test_pkg")
-useDynLib(testPkg)
+useDynLib(TESTPKG)
